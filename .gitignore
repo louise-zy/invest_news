@@ -1,5 +1,6 @@
 config.json
-esdm_news.db
+# esdm_news.db  <-- Un-commenting this so we can track it in git
+
 __pycache__/
 .venv/
 *.pyc
