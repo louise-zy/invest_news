@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 # ================= Configuration =================
+# Last Updated: 2025-12-27 (Force Sync)
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_FILE = os.path.join(CURRENT_DIR, "config.json")
 
@@ -197,7 +198,7 @@ def run_monitor():
             found_links.add(full_url)
             
             if is_processed(full_url):
-                print(f"[.] Skipping processed: {title[:20]}...")
+                # print(f"[.] Skipping processed: {title[:20]}...")
                 continue
             
             # Check Title Keywords
